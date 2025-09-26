@@ -11,3 +11,6 @@ suits = ["Hearts", "Clubs", "Diamonds"]
 for rank in ranks:
     for suit in suits:
         print(rank, suit)
+        
+# Each iteration of the outer loop runs the inner loop
+# entirely, with corresponding iterator values.
